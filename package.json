@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tapediff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tape digests and diff fingerprints for local integrity checks.",
+  "bin": {
+    "tapediff": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tapediff.git"
+  },
+  "homepage": "https://theworker02.github.io/tapediff/",
+  "keywords": [
+    "tape",
+    "diff",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
